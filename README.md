@@ -28,5 +28,6 @@ hello rust
                 * Takes more time to compile
                 * Lot of final optimizations are done
 * `cargo run` will build and run the project. Will just run if its already bild.
+* `cargo doc --open` will open the documentation for all the packages used.
 
 ##

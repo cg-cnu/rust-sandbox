@@ -1,12 +1,15 @@
-// import io from the std (standard library)
+// import rand from external crate 
 extern crate rand;
+// use Rng from the external crate rand
+// now range is available in the code base
 use rand::Rng;
+// import io from the std (standard library)
 use std::io;
 
 // function main with no input
 fn main() {
     // print macros 
-    println!("Guess the number!");
+    println!("Guess the number between 1 and 100!");
     println!("Please input your guess!");
     // let creates a variable x
     // mut makes it mutable, by default everything is immutable 
