@@ -12,10 +12,10 @@ fn main() {
     println!("Guess the number between 1 and 100!");
     println!("Please input your guess!");
     // let creates a variable x
-    // mut makes it mutable, by default everything is immutable 
+    // mut makes it mutable, by default everything is immutable
     // String::new() returns a new instance of string
-    // `Sting` is string type provided by std
-    // `::` accesses the static methods on String
+    // `String` is string type provided by std
+    // `::` accesses the associated functions on the string 
     // `new` creates a new instance of String.  
     let mut guess = String::new();
     // io::stdin accesses the stdin function on the io
